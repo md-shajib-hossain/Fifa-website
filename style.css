@@ -23,6 +23,12 @@
   border: none;
   font-size: 18px;
 }
+.btn-primary:hover {
+  background-color: transparent;
+  border: 1px solid #dd0000;
+  color: white;
+  transition: 0.2s;
+}
 #btn-unique {
   background-color: #dd0000;
   color: rgb(255, 255, 255);
@@ -77,7 +83,7 @@
 /* upcoming match section */
 .upcoming-match {
   display: flex;
-  /* background-color: green; */
+
   gap: 20px;
 }
 .upcoming-left {
@@ -134,11 +140,35 @@
   gap: 14px 24px;
 }
 
+/* Footer section */
+
+.footer {
+  margin-top: 100px;
+  width: 1726px;
+  height: 444px;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  place-content: center;
+  gap: 50px;
+}
+.footer-title {
+  color: #b9b9b9;
+  font-size: 3.125rem;
+  text-align: center;
+}
+.footer-links {
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  color: #b9b9b9;
+}
+
 /* resopnsive starts */
 
-/* banner section */
-
-/* upcoming section */
 @media (max-width: 992px) {
   .banner {
     max-width: 100%;
